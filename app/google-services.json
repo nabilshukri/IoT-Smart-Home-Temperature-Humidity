@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "810137234215",
+    "project_id": "iotsmarthome-e825d",
+    "storage_bucket": "iotsmarthome-e825d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810137234215:android:34311296b8adca89bd5702",
+        "android_client_info": {
+          "package_name": "com.example.dht11esp8266firebasejava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810137234215-9urnqfi6r4igd0q7sdsd007pijk9mprf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVIZEfxG42dPJWLyGgDAbXDo4EKfQjIyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810137234215-9urnqfi6r4igd0q7sdsd007pijk9mprf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

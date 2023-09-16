@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Analysis">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="#000000"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/aldrich"
+            android:text="Line Chart"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="50dp" >
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="The above graph shows the change of temperature for last few minutes."
+
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:id="@+id/temperature2s"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/aldrich"
+            android:text="Bar Graph"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="200dp"/>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="70dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:text="The above Bar Graph shows the average temperature for the particular time-period"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
